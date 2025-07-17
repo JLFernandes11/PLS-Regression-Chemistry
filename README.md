@@ -4,7 +4,7 @@ Partial Least Squares Regression for chemical spectroscopy multivariate calibrat
 
 This tool reads spectral CSV data, applies **Savitzky–Golay preprocessing**, performs **PLS calibration**, and outputs the **predicted concentrations** as a CSV file.
 
-To run the PLS_Regression.py file make sure the following dependencies are installed: 
+To run the `PLS_Regression.py` file make sure the following dependencies are installed: 
 <ul>
   <li>Pandas</li>
   <li>Numpy</li>
@@ -13,6 +13,14 @@ To run the PLS_Regression.py file make sure the following dependencies are insta
   <li>Scikit-learn</li>
   <li>Tkinter</li>
   <li>Customtkinter</li>
+</ul> 
+
+After running `PLS_Regression.py`, the GUI will prompt you to upload four `.csv` files:
+<ul>
+  <li>Spectral data (absorbance) of the standards (training)</li>
+  <li>Wavelength or wavenumber values the spectral data were colected</li>
+  <li>Known concentrations of the standards (training)</li>
+  <li>Spectral data (absorbance) of the sample</li>
 </ul> 
 
 Each file must follow a specific format: 

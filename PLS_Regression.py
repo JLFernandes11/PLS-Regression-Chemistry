@@ -229,8 +229,8 @@ match derivative:
 # The second derivative of a first-order (Ex: ax + b) is zero.
 # So each subset will have second derivative result as zero.
 
-# polyroder=1 and deriv=1 results in a consant but it's fine 
-# because each subset will have a constant value that it's different compared to the other subsets. 
+# polyroder=1 and deriv=1 results in a consant but that's fine 
+# because each subset will have a constant value that is different compared to the other subsets. 
 
 
 # Aplying the filter first or second derivative to the spectral data of unknown samples

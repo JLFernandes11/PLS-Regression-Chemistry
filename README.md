@@ -4,6 +4,14 @@ Partial Least Squares Regression for chemical spectroscopy multivariate calibrat
 
 This tool reads spectral CSV data, applies **Savitzky–Golay preprocessing**, performs **PLS calibration**, and outputs the **predicted concentrations** as a CSV file.
 
+# What is PLS Regression
+
+The Partial Least Squares Regression (PLS) is a linear regression model that the reduces the dimensionality of the data while maximizing the covariance between the concentrations (response variable) and spectral (independent variable) data. As a result, PLS provides a multivariate linear model that is more robust than the classical calibration method and the PCR model. 
+
+In that process, the dimensionality of the concentrations (response variable) and spectral (independent variable) data are reduced to principal components or latent variables, which the optimum number is determined by cross validation. 
+
+***
+
 To run the `PLS_Regression.py` file make sure the following dependencies are installed: 
 <ul>
   <li>Pandas</li>

@@ -6,9 +6,11 @@ This tool reads spectral CSV data, applies **Savitzky–Golay preprocessing**, p
 
 # What is PLS Regression
 
-The Partial Least Squares Regression (PLS) is a linear regression model that the reduces the dimensionality of the data while maximizing the covariance between the concentrations (response variable) and spectral (independent variable) data. As a result, PLS provides a multivariate linear model that is more robust than the classical calibration method and the PCR model. 
+The Partial Least Squares Regression (PLS) is a linear regression model that the reduces the dimensionality of the data while maximizing the **covariance** between the concentrations (response variable) and spectral (independent variable) data. As a result, PLS provides a multivariate linear model that is **more robust** than the classical calibration method and the PCR model. 
 
-In that process, the dimensionality of the concentrations (response variable) and spectral (independent variable) data are reduced to principal components or latent variables, which the optimum number is determined by cross validation. 
+In that process, the dimensionality of the concentrations (response variable) and spectral (independent variable) data are reduced to principal components or latent variables, which the optimum number is determined by **cross validation**. 
+
+To perform PLS, it was used the **NIPALS algorithm** which is the default used by **Scikit-learn**. 
 
 ***
 
